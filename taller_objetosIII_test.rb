@@ -28,7 +28,7 @@ class MiClase
         @name = name
     end
     def self.saludar
-        "Hola! Soy la clase #{@name}"
+        "Hola! Soy la clase #{self}"
     end
 end
 c = MiClase.new('Clase Uno')
@@ -116,6 +116,8 @@ class Alumno
   end
 end
 print Alumno.read_file('notas.txt')
+
+print
 
 
 
